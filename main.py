@@ -10,7 +10,7 @@ const player = {
     speed: 15,
     img: new Image()
 };
-player.img.src = "img/dou.png";
+player.img.src = "imgs/dou.png";
 
 // Balas y enemigos
 let bullets = [];
@@ -21,10 +21,10 @@ const enemySpeed = 5;
 
 // Cargar imágenes
 const bulletImg = new Image();
-bulletImg.src = "img/remasterbesos.png";
+bulletImg.src = "imgs/remasterbesos.png";
 
 const enemyImg = new Image();
-enemyImg.src = "img/baby.png";
+enemyImg.src = "imgs/baby.png";
 
 // Dibujar jugador
 function drawPlayer() {
