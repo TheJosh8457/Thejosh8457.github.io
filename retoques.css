@@ -1,0 +1,5 @@
+.carousel-item img {
+    width: 30vw; /* 30% del ancho de la pantalla */
+    height: auto; /* Mantener la proporción de la imagen */
+    object-fit: cover; /* Ajustar la imagen dentro del contenedor */
+}
